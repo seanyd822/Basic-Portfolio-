@@ -5,8 +5,7 @@ body{
 	height: 92px;
 	width: 100%;
 	background-color: #ffffff;
-	border-bottom-style: solid;
-	border-bottom-color: #cccccc;
+	border-bottom: 3px solid #cccccc;
 	}
 
 ul {
@@ -49,7 +48,7 @@ h1{
 #links{
 	position:absolute;
 	top: 15px;
-	right: 150px;
+	right: 280px;
 
 
 }
@@ -69,6 +68,7 @@ a:link {
 	padding: 15px;
 	margin-top: 20px
 
+
 }
 
 #paragraph{
@@ -76,6 +76,14 @@ a:link {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 20px;
 	padding: 15px;
+}
+
+#paragraph2{
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 10px;
+
 }
 
 #pic_float{
@@ -129,7 +137,7 @@ h2{
 }
 
 .border{
-	border-bottom: 4px solid #d3d3d3;
+	border-bottom: 3px solid #d3d3d3;
 	padding: 0px;
 	
 	}
@@ -159,6 +167,31 @@ h3{
 	left:150px;
 }
 form{
-	padding-left:25px;
+    padding-left:25px;
 	padding-right: 25px;
+}
+
+.container{
+	border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	width: 20%;
+	resize: vertical;
+	color: white;
+
 }
