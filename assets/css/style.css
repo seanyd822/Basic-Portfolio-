@@ -48,12 +48,12 @@ h1{
 #links{
 	position:absolute;
 	top: 15px;
-	right: 280px;
+	right: 310px;
 
 
 }
 
-a:link {
+a {
     color: grey;
     background-color: transparent;
     text-decoration: none;
@@ -64,9 +64,11 @@ a:link {
 	position: absolute;
 	left: 150px;
 	right: 650px;
+	top: 115px;
 	background-color: #ffffff;
 	padding: 15px;
 	margin-top: 20px
+	font-weight: bold;
 
 
 }
@@ -74,19 +76,23 @@ a:link {
 #paragraph{
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 20px;
+	font-size: 16px;
 	padding: 15px;
+	line-height: 28px;
+	letter-spacing: 1px;
 }
 
 #paragraph2{
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 20px;
+	font-size: 16px;
 	padding: 10px;
+	line-height: 28px;
+	letter-spacing: 1px;
 
 }
 
-#pic_float{
+#picfloat{
 	float:left;
 	margin-right: 15px;
 	padding: 15px;
@@ -96,7 +102,7 @@ a:link {
 
 #connect{
 	position: absolute;
-	right: 270px;
+	right: 300px;
 	background-color: #ffffff;
 	margin-top: 20px;
 	width: 270px;
@@ -137,7 +143,7 @@ h2{
 }
 
 .border{
-	border-bottom: 3px solid #d3d3d3;
+	border-bottom: 3px solid orange;
 	padding: 0px;
 	
 	}
@@ -153,12 +159,12 @@ h3{
 	font-size: 25px;
 }
 
-
+/* contact me page */
 
 #contactme{
 	background-color: #ffffff;
 	width: 625px;
-	color: #cccccc;
+	color: #cccccc
 	font-size:120%;
 	font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
 	padding:10px;
@@ -195,3 +201,17 @@ input[type=submit] {
 	color: white;
 
 }
+
+/* portfolio section */
+
+#portfolio {
+		background-color: #ffffff;
+		width: 625px;
+		color: #cccccc;
+		font-size: 120%;
+		font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+		padding: 10px;
+		margin: 10px;
+		position: absolute;
+		left: 150px;
+	}
